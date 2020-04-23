@@ -7,7 +7,7 @@ class Factorial{
         Scanner s = new Scanner(System.in);
 
         int factorial = 1;
-        int number = s.nextInt();
+        int number = 5;
 
         for(int i=1;i<=number;i++){    
             factorial = factorial * i;    
